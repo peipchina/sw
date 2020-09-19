@@ -1,0 +1,12 @@
+[AR2]display interface brief | include up 查看端口数据转发情况
+[AR2]display trapbuffer 查看MAC地址漂移
+
+mac-address flapping detection 关闭mac地址漂移检测功能
+[Huawei]display mac-address flapping record 查看mac地址漂移记录
+
+[Huawei]loopback-detect enable 打开环路检测
+[Huawei-GigabitEthernet0/0/1]loopback-detect packet vlan 1
+接口上打开环路检测 vlan
+[Huawei-GigabitEthernet0/0/1]loopback-detect action trap 
+设置检查结果为记录
+[Huawei]display loopback-detect 系统视图下查看报告
