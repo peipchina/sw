@@ -10,3 +10,8 @@ mac-address flapping detection 关闭mac地址漂移检测功能
 [Huawei-GigabitEthernet0/0/1]loopback-detect action trap 
 设置检查结果为记录
 [Huawei]display loopback-detect 系统视图下查看报告
+
+破环路
+1,端口退出成环vlan破坏
+2,shutdown成环的端口破坏
+3,拔出成环的网线货光纤破坏
